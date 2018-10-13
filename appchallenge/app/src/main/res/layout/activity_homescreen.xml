@@ -10,20 +10,21 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/picture"
-        android:layout_margin="20dp"
+        android:layout_marginLeft="50dp"
 
 
-        />
+
+        android:layout_alignTop="@+id/name"
+        android:src="@mipmap/picture" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Naman"
+        android:text="Hello, Naman"
         android:textColor="@android:color/white"
         android:textSize="25dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="130dp"
 
 
         android:id="@+id/name"
@@ -34,7 +35,7 @@
         android:layout_below="@+id/name"
         android:text="Welcome to farmer go"
         android:textColor="@android:color/white"
-        android:layout_marginLeft="90dp"
+        android:layout_marginLeft="130dp"
 
 
         />
@@ -42,13 +43,124 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-
+        android:src="@mipmap/tamil"
         android:background="@null"
         android:layout_alignParentRight="true"
         android:layout_marginTop="20dp"
 
         />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="120dp"
+        android:background="@null"
+        android:layout_marginLeft="30dp"
+        android:src="@mipmap/sell" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="120dp"
+        android:background="@null"
+        android:src="@mipmap/buy" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="238dp"
+        android:background="@null"
+        android:src="@mipmap/featured" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp"
+        android:background="@null"
+        android:src="@mipmap/featuress" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@android:color/white"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/homeb"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:id="@+id/homeb"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/solution"
+                android:background="@null"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/homeb"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/solution"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/chat"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:layout_toLeftOf="@id/profile"
+                android:layout_marginRight="40dp"
+                android:background="@null"
+                android:src="@mipmap/logs" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="40dp"
+                android:background="@null"
+                android:id="@+id/profile"
+                android:src="@mipmap/profile" />
+
+        </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
+
 
 
 

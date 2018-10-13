@@ -1,5 +1,6 @@
 package com.namankhurpia.appchallenge;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.WindowManager;
@@ -17,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
-
+Intent i =new Intent(MainActivity.this,homescreen.class);
+startActivity(i);
 
 
 
