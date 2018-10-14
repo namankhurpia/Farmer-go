@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundpayment"
+    tools:context=".payment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/freshchat_black"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Account balance"
+        android:id="@+id/bankbalance"
+
+        />
+
+    <ImageButton
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignTop="@+id/yes"
+        android:layout_marginStart="110dp"
+        android:background="@null"
+        android:src="@mipmap/no" />
+
+    <ImageButton
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginBottom="227dp"
+        android:layout_marginEnd="105dp"
+        android:background="@null"
+        android:src="@mipmap/yes" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS"
+        android:textColor="@color/freshchat_black"
+        android:textSize="40dp"
+        android:id="@+id/status"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+
+        />
+
+
+</RelativeLayout>

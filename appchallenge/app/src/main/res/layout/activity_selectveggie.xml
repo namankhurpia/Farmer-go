@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7D7D7D"
+    tools:context=".selectveggie">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/selectveggi"
+        android:background="@null"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/broco"
+
+        android:background="@null"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/broco"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cost"
+        android:layout_marginTop="240dp"
+        android:textColor="@color/freshchat_black"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/brocolival"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/cap"
+        android:id="@+id/cap"
+        android:background="@null"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="90dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/okra"
+        android:id="@+id/okra"
+        android:background="@null"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/cap"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/peas"
+
+        android:background="@null"
+
+        android:layout_marginLeft="20dp"
+        android:id="@+id/peas"
+        android:layout_below="@+id/broco"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/tom"
+
+        android:background="@null"
+
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tom"
+        android:layout_below="@+id/peas"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/spina"
+        android:id="@+id/spina"
+        android:background="@null"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/okra"
+        />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

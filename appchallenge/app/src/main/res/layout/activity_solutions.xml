@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.namankhurpia.appchallenge.SolutionsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/solu"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/solutionhead"
+                />
+
+            <ImageView
+                android:id="@+id/newsone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/newsone"
+                android:layout_below="@+id/solutionhead"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp">
+            </ImageView>
+
+
+            <ImageView
+                android:id="@+id/newstwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/newstwo"
+                android:layout_below="@+id/newsone"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="20dp">
+            </ImageView>
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@android:color/white"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/homegrey"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:id="@+id/homeb"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/soluu"
+                android:background="@null"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/homeb"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/solutionb"
+                />
+            <ImageButton
+                android:id="@+id/chatb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/chat"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                />
+
+            <ImageButton
+                android:id="@+id/logb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:layout_toLeftOf="@id/profileb"
+                android:layout_marginRight="40dp"
+                android:background="@null"
+                android:src="@mipmap/logs" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="40dp"
+                android:background="@null"
+                android:id="@+id/profileb"
+                android:src="@mipmap/profile" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

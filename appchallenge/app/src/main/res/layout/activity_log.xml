@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.namankhurpia.appchallenge.LogActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/transactionhead"
+                android:text="TRANSACTION HISTORY"
+                android:textSize="25dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="35dp"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="310dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:layout_height="100dp"
+                android:id="@+id/card1"
+                android:layout_below="@+id/transactionhead"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From:"
+                        android:id="@+id/fromtext"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chennai"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_toRightOf="@+id/fromtext"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To:"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/totext"
+                        android:layout_marginRight="55dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vellore"
+                        android:layout_marginLeft = "260dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TransactionID:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:id="@+id/transactionid"
+                        android:layout_below="@+id/fromtext"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/transactionid"
+                        android:text="2f3dfe352h1"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_below="@+id/fromtext"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cost:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:id="@+id/cost"
+                        android:layout_below="@+id/transactionid"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.6700"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_toRightOf="@+id/cost"
+                        android:layout_below="@+id/transactionid"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="310dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:id="@+id/card2"
+                android:layout_height="100dp"
+                android:layout_below="@+id/card1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From:"
+                        android:id="@+id/fromtext1"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mumbai"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_toRightOf="@+id/fromtext1"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To:"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/totext1"
+                        android:layout_marginRight="55dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Goa"
+                        android:layout_marginLeft = "260dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TransactionID:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:id="@+id/transactionid1"
+                        android:layout_below="@+id/fromtext1"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/transactionid1"
+                        android:text="3k4h5gl35h3"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_below="@+id/fromtext1"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cost:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:id="@+id/cost1"
+                        android:layout_below="@+id/transactionid1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.4600"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_toRightOf="@+id/cost1"
+                        android:layout_below="@+id/transactionid1"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:id="@+id/card3"
+                android:layout_below="@+id/card2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From:"
+                        android:id="@+id/fromtext2"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gurgaon"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_toRightOf="@+id/fromtext2"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To:"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/totext2"
+                        android:layout_marginRight="55dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Delhi"
+                        android:layout_marginLeft = "260dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TransactionID:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:id="@+id/transactionid2"
+                        android:layout_below="@+id/fromtext2"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/transactionid2"
+                        android:text="6f3dfe352h4"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_below="@+id/fromtext2"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cost:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:id="@+id/cost2"
+                        android:layout_below="@+id/transactionid2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs. 2200"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_toRightOf="@+id/cost2"
+                        android:layout_below="@+id/transactionid2"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:id="@+id/card4"
+                android:layout_below="@+id/card3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From:"
+                        android:id="@+id/fromtext3"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bangalore"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_toRightOf="@+id/fromtext3"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To:"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/totext3"
+                        android:layout_marginRight="55dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pondy"
+                        android:layout_marginLeft = "260dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TransactionID:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:id="@+id/transactionid3"
+                        android:layout_below="@+id/fromtext3"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/transactionid3"
+                        android:text="8f3dfe352h2"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_below="@+id/fromtext3"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cost:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:id="@+id/cost3"
+                        android:layout_below="@+id/transactionid3"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs. 3700"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"
+                        android:layout_toRightOf="@+id/cost3"
+                        android:layout_below="@+id/transactionid3"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@android:color/white"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/homegrey"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:id="@+id/homeb"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/solution"
+                android:background="@null"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/homeb"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/solutionb"
+                />
+            <ImageButton
+                android:id="@+id/chatb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/chat"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                />
+
+            <ImageButton
+                android:id="@+id/logb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:layout_toLeftOf="@id/profileb"
+                android:layout_marginRight="40dp"
+                android:background="@null"
+                android:src="@mipmap/logss" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="40dp"
+                android:background="@null"
+                android:id="@+id/profileb"
+                android:src="@mipmap/profile" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/createacc"
+    tools:context="com.namankhurpia.appchallenge.SignupActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/txtempty"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="70dp"
+            android:hint="Full Name"
+            android:textColorHint="#BDBDBD"
+            android:textColor="@android:color/black"
+            android:background="@null"
+            android:paddingLeft="15dp"
+            />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame1"
+        android:id="@+id/frame2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/txtempty"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/email"
+            android:textColorHint="#BDBDBD"
+            android:textColor="@android:color/black"
+            android:hint="Email"
+            android:background="@null"
+            android:paddingLeft="15dp"
+            />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame2"
+        android:id="@+id/frame3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/txtempty"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/password"
+            android:textColorHint="#BDBDBD"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:hint="Password"
+            android:background="@null"
+            android:paddingLeft="15dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame3"
+        android:id="@+id/frame4">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/txtempty"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="70dp"
+            android:textColorHint="#BDBDBD"
+            android:textColor="@android:color/black"
+            android:hint="Phone No."
+            android:background="@null"
+            android:paddingLeft="15dp"
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/agree"
+        android:background="@mipmap/terms" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/agree"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/cont"
+        android:id="@+id/sign_up_button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</RelativeLayout>

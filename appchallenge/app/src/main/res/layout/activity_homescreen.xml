@@ -57,6 +57,7 @@
         android:layout_marginTop="120dp"
         android:background="@null"
         android:layout_marginLeft="30dp"
+        android:id="@+id/sell"
         android:src="@mipmap/sell" />
 
     <ImageButton
@@ -67,6 +68,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginTop="120dp"
         android:background="@null"
+        android:id="@+id/buy"
         android:src="@mipmap/buy" />
 
     <ImageView
@@ -119,7 +121,7 @@
                 android:layout_toRightOf="@+id/homeb"
                 android:layout_marginLeft="40dp"
                 android:layout_marginBottom="5dp"
-                android:id="@+id/solution"
+                android:id="@+id/solutionb"
                 />
             <ImageButton
                 android:layout_width="wrap_content"
@@ -129,6 +131,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="5dp"
                 android:background="@null"
+                android:id="@+id/chatb"
                 />
 
             <ImageButton
@@ -136,10 +139,12 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="5dp"
-                android:layout_toLeftOf="@id/profile"
+                android:layout_toLeftOf="@id/profileb"
                 android:layout_marginRight="40dp"
                 android:background="@null"
-                android:src="@mipmap/logs" />
+                android:src="@mipmap/logs"
+                android:id="@+id/logb"
+                />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -149,8 +154,9 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginRight="40dp"
                 android:background="@null"
-                android:id="@+id/profile"
-                android:src="@mipmap/profile" />
+                android:id="@+id/profileb"
+                android:src="@mipmap/profile"
+                />
 
         </RelativeLayout>
 
