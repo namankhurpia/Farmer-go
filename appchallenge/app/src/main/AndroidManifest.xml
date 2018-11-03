@@ -36,7 +36,8 @@
         <activity android:name=".LogActivity" />
         <activity android:name=".SolutionsActivity" />
         <activity android:name=".profiletab" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".payment_bank"></activity>
     </application>
 
 </manifest>
