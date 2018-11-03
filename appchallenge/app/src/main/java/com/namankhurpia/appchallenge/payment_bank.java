@@ -31,7 +31,7 @@ public class payment_bank extends AppCompatActivity {
     }
 
     public void DoHandle(View v) {
-         {
+        try {
             if (!s1.isChecked()) {
                 setTitle("Bank Closed");
             }
@@ -52,7 +52,10 @@ public class payment_bank extends AppCompatActivity {
                 setTitle("Amount Withdraw");
                 tv.setText("Insufficient Balance");
             }
-        }
+        }catch (Exception ex) {
+            System.out.println(ex);
+            tv.setText(ex.getMessage());
+            ex.printStackTrace();
 
         }
     }
